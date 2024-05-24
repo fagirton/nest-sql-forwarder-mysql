@@ -36,10 +36,10 @@ $ yarn run start:prod
 
 ## Usage
 
-Send a POST request with an SQL query in the JSON body like this:
+Send a POST request with one or many SQL queries in the array of JSON body like this:
 ```json
 {
-  "query": "SELECT * FROM Table;"
+  "queries": ["SELECT * FROM Table;]"
 }
 ```
 And it will send you back everything it selected as JSON array of objects.
