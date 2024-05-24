@@ -1,3 +1,3 @@
 export class SqlPost {
-  query: string;
+  queries: Array<string>;
 }
